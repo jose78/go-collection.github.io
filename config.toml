@@ -1,3 +1,49 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "title"
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+theme = "npq-hugo"
+pygmentsUseClasses=true
+
+[params]
+  author = "Jose Clavero Anderica"
+  description = "your description"
+  keywords = "go-collections"
+  useAvatar = true
+
+  displayMicroBlog = false
+  displayRecent = false
+  recentMax = 3
+
+[menu]
+
+  [[menu.main]]
+    name = "Filter"
+    url = "/en/filter"
+    pre = "<i class=\"fas fa-filter\"></i>"
+    weight = -8
+  [[menu.main]]
+    name = "ForEach"
+    url = "/en/forEach"
+    pre = "<i class=\"fas fa-sync\"></i>"
+    weight = -8
+  [[menu.main]]
+    name = "GroupBy"
+    url = "/en/groupBy"
+    pre = "<i class=\"fas fa-folder\"></i>"
+    weight = -7 
+  [[menu.main]]
+    name = "Map"
+    url = "/en/map"
+    pre = "<i class=\"fas fa-map\"></i>"
+    weight = -6 
+  [[menu.main]]
+    name = "Zip"
+    pre = "<i class=\"fas fa-compress-arrows-alt\"></i>"
+    url = "/en/zip"
+    weight = -4 
+  [[menu.main]]
+    name = "contact"
+    pre = "<i class=\"far fa-envelope\"></i>"
+    url = "/contact"
+    weight = -1 
