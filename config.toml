@@ -16,7 +16,6 @@ pygmentsUseClasses=true
   recentMax = 3
 
 [menu]
-
   [[menu.main]]
     name = "Filter"
     url = "/en/filter"
