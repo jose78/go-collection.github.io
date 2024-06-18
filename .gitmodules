@@ -1,0 +1,3 @@
+[submodule "nqh-hugo"]
+	path = themes/nqh
+	url = https://github.com/saadjsct/npqhugo.git

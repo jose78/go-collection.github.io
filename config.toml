@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "https://jose78.github.io/go-collection/"
 languageCode = "en-us"
-title = "title"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+title = "go-collection"
+copyright = "Copyright © 2008–2019, Jose Clavero Anderica; all rights reserved."
 theme = "npq-hugo"
 pygmentsUseClasses=true
 
@@ -14,6 +14,7 @@ pygmentsUseClasses=true
   displayMicroBlog = false
   displayRecent = false
   recentMax = 3
+  custom_css = ["css/style.css"]
 
 [menu]
   [[menu.main]]
